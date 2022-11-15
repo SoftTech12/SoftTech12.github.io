@@ -1,0 +1,212 @@
+/* importar fuente de google */
+@import url('https://fonts.googleapis.com/css2? family= Cairo:wght@300 & display=swap');
+/* modifica el documento general */
+* {
+    box-sizing: border-box;
+}
+/* Body general */
+body {
+    background: black;
+    color: #fff;
+    padding: 0 1.5em;
+}
+/* Modificación de barra lateral de la página */
+html::-webkit-scrollbar{
+  width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #fff;
+  border-radius: 5rem;
+}
+/* Header */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0.5rem 6%;
+  position: fixed;
+  top: 0; left: 0;right: 0;
+  border-bottom: .1rem solid rgba(255,255,255,.3);
+  background-color: black;
+}
+/* a general */
+a{
+  text-decoration: none;
+}
+ .header .logo img{
+  height: 8rem;
+ }
+/* h1 general */
+h1{
+  color: #33ccff;
+}
+
+.header .encabezado a{
+  margin:0 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+  justify-content: center;
+ }
+ .header .encabezado{
+  margin-right: 20%;
+  margin-left: 20%;
+ }
+ .header .iconolupa a,.iconocarro a{
+  margin:0 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+ }
+ .header .iconolupa a:hover,.iconocarro a:hover{
+  color: #33ccff;
+  border-bottom: .1rem solid #33ccff;
+  padding-bottom: .5rem;
+
+ }
+
+.header .encabezado a:hover{
+  color: #33ccff;
+  border-bottom: .1rem solid #33ccff;
+  padding-bottom: .5rem;
+}
+/* Caja que agrupa caja1 y caja2*/
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* caja1 */
+.Caja1{
+  margin-top: 10%;
+}
+/* caja2 */
+.Caja2{
+    top: 30%;
+    bottom:50%;
+    right: 5%;
+    height: 120%;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+/* input general*/
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #33D4FF; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+/* Textarea general */
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #33D4FF; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+/* label general */
+label{
+  display: block;  
+}
+/* button general */
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #33D4FF; 
+  border-color: #33D4FF; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+/* animación botón enviar */
+button:hover{
+  color: white;
+}
+/* formulario general */
+.formulario{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 18%;
+}
+
+/* footer */
+.footer{
+  background: black;
+  text-align: center;
+}
+
+.footer .redes{
+  padding: 1rem 0;
+}
+
+.footer .redes a{
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  border:.1rem solid rgba(255,255,255,.3);
+  margin: .3rem;
+  border-radius: 50%;
+}
+
+.footer .redes a:hover{
+  background-image: linear-gradient(to bottom,
+    #33ccff,
+    #1ac6ff,
+    #0099cc
+    );
+}
+
+.footer .links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.footer .links a{
+  padding: .7rem 2rem;
+  color: #fff;
+  border: .1rem solid rgba(255,255,255,.3);
+  font-size: 1.6rem;
+  box-shadow: 0.1rem 0.1rem white;
+}
+
+.footer .links a:hover{
+  background: #33ccff;
+}
+
+.footer .credit{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: lighter;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.footer .credit span{
+  color: #33ccff;
+}
