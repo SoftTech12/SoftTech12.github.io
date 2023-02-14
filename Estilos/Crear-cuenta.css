@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2? family= Cairo:wght@300 & display=swap');
+body{
+	background-image: url(../img/Fondo1.jpg);
+	background-size:100%;
+
+ }
+ h2{
+	padding-top: 2%;
+ }
+form {
+    width: 26%;
+    margin: 0 auto;
+    padding: 1%;
+    border: 1px solid lightgray;
+	background-color: white;
+    border-radius: 10px;
+    margin-top: 4% ;
+    margin-bottom: 3%;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 2%;
+    margin-top: 1%;
+    width: 96%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+  }
+  a{
+	text-decoration: none;
+  }
+  
+  button[type="submit"] {
+    background-color: rgba(0, 0, 255, 0.562);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  img{
+	padding-left:47.5%;
+	position: absolute;
+	top: 3%;
+  }
+  /*footer*/
+  .footer{
+	background: black;
+	text-align: center;
+}
+
+.footer .redes{
+	padding: 1rem 0;
+}
+
+.footer .redes a{
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
+	font-size: 1.6rem;
+	color: #fff;
+	border:.1rem solid rgba(255,255,255,.3);
+	margin: .3rem;
+	border-radius: 50%;
+}
+
+.footer .redes a:hover{
+	background-image: linear-gradient(to bottom,
+		#33ccff,
+		#1ac6ff,
+		#0099cc
+		);
+}
+
+.footer .links{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 1rem 0;
+}
+
+.footer .links a{
+	padding: .7rem 2rem;
+	color: #fff;
+	border: .1rem solid rgba(255,255,255,.3);
+	font-size: 1.6rem;
+	box-shadow: 0.1rem 0.1rem white;
+}
+
+.footer .links a:hover{
+	background: #33ccff;
+}
+
+.footer .credit{
+	font-size: 2rem;
+	color: #fff;
+	font-weight: lighter;
+	padding: 1.5rem;
+	font-size: 1.6rem;
+}
+
+.footer .credit span{
+	color: #33ccff;
+}

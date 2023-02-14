@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link Estilos CSS -->
+	<link rel="stylesheet" type="text/css" href="../Estilos/contactoCSS.css">
+	<!-- Link favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+	<!-- Link para los iconos -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+			<a href="#" class="logo">
+				<img src="../img/logo.png" alt="logo">
+			</a>
+
+		<nav class="encabezado">
+			<a href="../index.html">Inicio</a>
+			<a href="Tienda.html">Tienda</a>
+			<a	href="contacto.html">Contacto</a>
+			<a href="juego.html">Entretenimiento</a>
+		</nav>
+
+		<div class="iconolupa">
+			<a href="#" class="fas fa-search"></a>
+		</div>
+
+		<div class="iconocarro">
+			<a href="#" class="fas fa-shopping-cart"></a>
+		</div>
+
+	</header>
+<!-- Formulario -->
+	<div class="content">
+
+		  
+ 	 <div class="Caja1">
+
+    	<div class="formulario">      
+     	 <h1>Formulario de contacto</h1>
+        	<h2>Escríbenos y en breve nos pondremos en contacto contigo</h2>
+
+
+         		 <form action="submeter-formulario.php" method="post">       
+
+            
+                	<p>
+                 	 <label for="nombre" class="colocar_nombre">Nombre 
+                 	   <span class="obligatorio">*</span>
+                 	 </label>
+                 	   <input type="text" name="introducir_nombre" id="nombre" required>
+              	  </p>
+              
+               	 <p>
+                	  <label for="email" class="colocar_email">Email
+                 	   <span class="obligatorio">*</span>
+                 	 </label>
+                 	   <input type="email" name="introducir_email" id="email" required> 
+               	 </p>
+            
+               	 <p>
+               	   <label>Teléfono
+                	  </label>
+                	    <input type="tel" name="introducir_telefono" id="telefono" required>
+               	 </p>    
+              
+              	  <p>
+               	                 
+              	  <p>
+              	    <label>Asunto
+              	      <span class="obligatorio">*</span>
+               	   </label>
+               	     <input type="text" name="introducir_asunto" id="assunto" required>
+               	 </p>    
+              
+               	 <p>
+                	 <label for="mensaje" class="colocar_mensaje">Mensaje
+                 	 <span class="obligatorio">*</span>
+                 	 </label>                     
+                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required></textarea> 
+                 </p>                    
+              
+               	 <button type="submit" name="enviar_formulario" id="enviar">Enviar
+               	 </button>
+
+               	 <p class="aviso">
+                	  <span class="obligatorio"> * </span>los campos son obligatorios.
+               	 </p>          
+            
+          	</form>
+   	 </div>  
+  	</div>
+<!-- Información -->
+	<div class="Caja2">
+				<h3>Más Información</h3><br>
+				<ul>
+					<li><i class="fas fa-map-marker-alt"></i> Centro Formación Somorrostro</li>
+					<li><i class="fas fa-Teléfono"></i> (+34) 623 623 623</li>
+					<li><i class="fas fa-envelope-open-tect"></i> Tienda@softtech.com</li>
+				</ul>		
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.6394164124163!2d-3.1250503507674!3d43.32180724752195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4ef7b47f9006e7%3A0x4f5a33e5bfc9c88d!2sCentro%20de%20Formacion%20Somorrostro!5e0!3m2!1ses!2ses!4v1667564912007!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<p>Soft-Tech.com</p>
+	</div>
+	</div>
+<!-- Footer -->
+<section class="footer">
+
+		<div class="redes">
+			<a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+			<a href="https://twitter.com/?lang=es" class="fab fa-twitter"></a>
+			<a href="https://es-es.facebook.com/" class="fab fa-facebook-f"></a>
+			<a href="https://es.linkedin.com/" class="fab fa-linkedin"></a>
+		</div>
+
+		<div class="links">
+			<a	href="index.html">Inicio</a>
+			<a	href="index.html">Acerca De</a>
+			<a	href="#">Tienda</a>
+			<a	href="contacto.html">Contacto</a>
+		</div>
+
+		<div class="credit">Creado por la empresa <span>Soft Tech</span> | Copyright
+		</div>
+
+	</section>
+</body>
+</html>

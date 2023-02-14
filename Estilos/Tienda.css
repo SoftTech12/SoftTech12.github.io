@@ -1,0 +1,155 @@
+body{
+  background-image: url(../img/Fondo1.jpg);
+	background-size:100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.product-box {
+  width: 37%;
+  height: 40%;
+  margin: 1%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 1%;
+  text-align: center;
+  background-color: #878787;
+}
+
+.product-img {
+  width: 40%;
+  height: 40%;
+  transition: all 4s;
+  cursor: pointer;
+}
+h2{
+  color: floralwhite;
+}
+p{
+font-size: 1.15em;
+color: white;
+}
+.product-img:hover {
+  width: 60%;
+  height: 60%;
+}
+h3{
+  text-align: left;
+  color: white;
+}
+li{
+  padding:0;
+  text-align: left;
+  color: white;
+
+}
+/*boton añadir al carrito*/
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#message {
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+  /* Media query para minimizar la página */
+  @media (max-width: 600px) {
+    .producto {
+      width: 100%;
+      float: none;
+    }
+  }
+  .sidebar {
+    width: 16%;
+    float: left;
+    margin-left: 10%;
+    background-color: #878787;
+    padding: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      float: none;
+    }
+  }
+/*footer*/
+.footer{
+	background: black;
+	text-align: center;
+}
+
+.footer .redes{
+	padding: 1rem 0;
+}
+
+.footer .redes a{
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
+	font-size: 1.6rem;
+	color: #fff;
+	border:.1rem solid rgba(255,255,255,.3);
+	margin: .3rem;
+	border-radius: 50%;
+}
+
+.footer .redes a:hover{
+	background-image: linear-gradient(to bottom,
+		#33ccff,
+		#1ac6ff,
+		#0099cc
+		);
+}
+
+.footer .links{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 1rem 0;
+}
+
+.footer .links a{
+	padding: .7rem 2rem;
+	color: #fff;
+	border: .1rem solid rgba(255,255,255,.3);
+	font-size: 1.6rem;
+	box-shadow: 0.1rem 0.1rem white;
+}
+
+.footer .links a:hover{
+	background: #33ccff;
+}
+
+.footer .credit{
+	font-size: 2rem;
+	color: #fff;
+	font-weight: lighter;
+	padding: 1.5rem;
+	font-size: 1.6rem;
+}
+
+.footer .credit span{
+	color: #33ccff;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="../Estilos/Tienda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/tiendalogo.png">
+    <script src="../Js/Tienda.js"></script>
+</head>
+<body>
+    <div> <div class="sidebar">
+        <h3>Filtros de búsqueda</h3>
+        <div class="filter">
+          <h3>Marcas</h3>
+          <ul>
+            <li><a href="Tienda.html"> Todos</a></li>
+            <li><a href="#"> Samsung</a></li>
+            <li><a href="#"> Hp</a></li>
+            <li><a href="#"> Lenovo</a></li>
+            <li><a href="#"> Componentes</a></li>
+          </ul>
+        </div>
+        <div class="filter">
+          <h3>Precio</h3>
+          <input type="range" min="0" max="100" value="50">
+        </div>
+        <div class="filter">
+          <h3>Estado</h3>
+          <ul>
+            <li><input type="radio" name="status" value="nuevo">Nuevo</li>
+            <li><input type="radio" name="status" value="usado">Usado</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="product-box">
+          <img src="../Tienda/1.png" alt="Producto 1" class="product-img">
+          <h2>Samsung Galaxy Book 2 NP750XED</h2>
+          <p><b>Color:</b> Gris, &nbsp <b>Tamaño pantalla (pulgadas):</b>15,6,  &nbsp <b> Almacenamiento:</b> 256 GB, &nbsp  <b> Memoria RAM:</b> 8 GB,
+            &nbsp <b> Tarjeta gráfica:</b>Intel UHD Graphics  &nbsp  <br><b> Sistema operativo:</b>Windows 11, &nbsp <b><br> Resolución:</b> 1920 x 1080,<b>  &nbsp Tipo de pantalla:</b> LED
+            &nbsp  <b> Wi-Fi:</b> Sí,<b> &nbsp Ethernet:</b> Sí, &nbsp <b><br> Procesador:</b> Core i5-1235U 1,3Gz,&nbsp  <br><b> Almacenamiento SSD (GB):</b> 256,  &nbsp <br><b> Pantalla táctil:</b> No
+            &nbsp  <b> Bluetooth:</b> Sí,  &nbsp <b> Webcam:</b> Sí, &nbsp <b>  Micrófono:</b> Sí,  &nbsp  <b> Color principal:</b> Gris,  &nbsp <b>  &nbsp  Peso:</b>1550 g</p> 
+            <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+          </div>
+        <div class="product-box">
+          <img src="../Tienda/2.png" alt="Producto 2" class="product-img">
+          <h2>HP 250 G8 </h2>
+          <p><b>Color:</b> Gris, &nbsp <b>Tamaño pantalla (pulgadas):</b>15,6,  &nbsp <b> Almacenamiento:</b> 256 GB, &nbsp  <b> Memoria RAM:</b> 8 GB,
+            &nbsp <b> Tarjeta gráfica:</b> Intel UHD Graphics,  &nbsp  <br><b> Sistema operativo:</b>Windows 10, &nbsp <b><br> Resolución:</b> 1920 x 1080,<b>  &nbsp Tipo de pantalla:</b> LED
+            &nbsp  <b> Wi-Fi:</b> Sí,<b> &nbsp Ethernet:</b> No, &nbsp <b><br> Procesador:</b> Core i3-1115G4 1,2Gz,&nbsp  <br><b> Almacenamiento SSD (GB):</b> 256,  &nbsp <br><b> Pantalla táctil:</b> No
+            &nbsp  <b> Bluetooth:</b> Sí,  &nbsp <b> Webcam:</b> Sí, &nbsp <b>  Micrófono:</b> Sí,  &nbsp  <b> Color principal:</b> Gris,  &nbsp <b>  &nbsp  Peso:</b>1740 g</p> 
+            <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+        <div class="product-box">
+          <img src="../Tienda/3.png" alt="Producto 3" class="product-img">
+          <h2>Torre AMD</h2>
+          <p>Torre: Nfortec Azir Black, Fuente de alimentación: 650W 80+ Bronze, Procesador: AMD Ryzen 5 3600 3.6 Ghz, Placa Base: Asus PRIME B550M, Ventilador CPU: Tempest Cooler 4Pipes Black RGB Ventilador CPU 120mm Negro
+            Discos duros: 500GB M.2 NVMe 2280, Memoria: DDR4 3200 16GB 2x8GB, Gráfica: GeForce GTX 1660 SUPER GAMING 6GB GDDR6, 
+            <h3>Conexiones delanteras:</h3>
+            <ul>
+              <li>USB 2.0 x2</li>
+              <li>USB 3.0 x1</li>
+              <li>Auricular/Microfono x1</li>
+              <li>Encendido/Apagado</li>
+              <li>Reinicio/LED</li>
+          </ul>
+         <p> Dimensiones: (L x An x Al)392mm x 210mm x 477mm)</p><br>
+         <p>NOTA: No incluye sistema operativo, se entrega listo para ser instalado el que desee </p>
+          <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+        <div class="product-box">
+          <img src="../Tienda/4.png" alt="Producto 4" class="product-img">
+          <h2>Torre AMD</h2>
+          <p>Torre:Tempest Shade RGB, Fuente de alimentación: Tempest Gaming 650W , Procesador: AMD Ryzen 7 5700G 4.6GHz, Placa Base:  Gigabyte B550 AORUS ELITE V2, Ventilador CPU: Tempest Cooler 4Pipes Black RGB Ventilador CPU 120mm Negro
+            Discos duros: 500GB M.2 NVMe 2280, Memoria: DDR4 3200 16GB 2x8GB, Gráfica: Radeon Graphics , 
+            <h3>Conexiones delanteras:</h3>
+            <ul>
+              <li>USB3.0 x 1 </li>
+              <li>U  USB2.0 x 2</li>
+              <li> HD Audio & Mic </li>
+              <li>Encendido/Apagado</li>
+              
+          </ul>
+         <p>Dimensiones: (L x An x Al) 360mm x 181mm x 430mm</p><br>
+           <p> NOTA: No incluye sistema operativo, se entrega listo para ser instalado el que desee </p>
+           <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+        <div class="product-box">
+          <img src="../Tienda/5.png" alt="Producto 2" class="product-img">
+          <h2>Torre AMD</h2>
+          <p>Torre:  Nfortec Sygnus White ARGB Fuente de alimentación: 650W 80+ Bronze, Procesador: AMD Ryzen 5 3600 3.6 Ghz, Placa Base:B660M - MSI,, Ventilador CPU: Tempest Cooler 4Pipes Black RGB Ventilador CPU 120mm Negro
+            Discos duros: 500GB M.2 NVMe 2280, Memoria: DDR4 3200 16GB 2x8GB, Gráfica: GeForce GTX 1650 4GB, 
+            <h3>Conexiones delanteras:</h3>
+            <ul>
+              <li>1 x USB 3.0</li>
+              <li>2 x USB 2.0</li>
+              <li>1 x Auricular/Micrófono</li>
+              <li>Encendido/Apagado</li>
+              <li>Reinicio/LED</li>
+          </ul>
+         <p> Dimensiones (L x An x Al): 330 x 210 x 438 mm</p><br>
+         <p>  NOTA:  Incluye Windows 11 Home 64Bits instalado y configurado </p>
+           <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+        <div class="product-box">
+          <img src="../Tienda/6.jpg" alt="Producto 3" class="product-img">
+          <h2>Torre Intel</h2>
+          <p>Torre: MSI MEG Aegis Ti5 , Fuente de alimentación: 850W 80+ Bronze, Procesador: Intel® Core™ i9-12900KF, Placa Base: Asus PRIME B550M, Ventilador CPU: Tempest Cooler 4Pipes Black RGB Ventilador CPU 120mm Negro
+            Discos duros:  2 TB SSD x M.2 +  3 TB HDD , Memoria: DDR4 3200 64 GB 2x15GB, Gráfica: GeForce RTX™ 3090 con 24 GB dedicados GDDR6X, 
+            <h3>Conexiones delanteras:</h3>
+            <ul>
+              <li>USB 2.0 x2</li>
+              <li>USB 3.0 x1</li>
+              <li>Auricular/Microfono x1</li>
+              <li>Encendido/Apagado</li>
+              <li>Reinicio/LED</li>
+          </ul>
+         <p> Dimensiones: (L x An x Al)392mm x 210mm x 477mm)</p><br>
+         <p> NOTA: No incluye sistema operativo, se entrega listo para ser instalado el que desee </p>
+           <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+         <div class="product-box">
+          <img src="../Tienda/7.png" alt="Producto 2" class="product-img">
+          <h2>Torre AmD</h2>
+          <p>Torre: Lian Li PC-O11 Dynamic, Fuente de alimentación: Cooler Master V750 V2 750W 80 Plus Gold Modular , Procesador: : AMD Ryzen 7 5800X 3.8GHz, Placa Base: Gigabyte X570 Aorus Elite, Ventilador CPU: Kit Refrigeración Líquida Negra
+            Discos duros: 2TB SATA3 + TB SSD M.2, Memoria: DDR4 3200 16GB 2x8GB, Gráfica:  AMD Radeon RX 6800XT, 
+            <h3>Conexiones delanteras:</h3>
+            <ul>
+              <li>2 X USB 3.0 </li>
+              <li>1 x USB 3.1 Tipo-C</li>
+              <li>Auricular/Microfono x1</li>
+              <li>Encendido/Apagado</li>
+              <li>Reinicio/LED</li>
+          </ul>
+         <p> Dimensiones: Dimensiones: : 273 mm x 445 mm x 446 mm (W x H x D)</p><br>
+         <p> NOTA: No incluye sistema operativo, se entrega listo para ser instalado el que desee </p>
+         <button id="add-to-cart-button">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+        <div class="product-box">
+          <img src="../Tienda/8.png" alt="Producto 3" class="product-img">
+          <h2>Lenovo ThinkPad 3</h2>
+          <p><b>Color:</b> Negro, &nbsp <b>Tamaño pantalla (pulgadas):</b>15,6,  &nbsp <b> Almacenamiento:</b> 512 GB, &nbsp  <b> Memoria RAM:</b> 16 GB,
+            &nbsp <b> Tarjeta gráfica:</b>Intel Iris Xe Graphics, &nbsp  <br><b> Sistema operativo:</b>Windows 11, &nbsp <b><br> Resolución:</b> 1920 x 1080,<b>  &nbsp Tipo de pantalla:</b> LED
+            &nbsp  <b> Wi-Fi:</b> Sí,<b> &nbsp Ethernet:</b> Sí, &nbsp <b><br> Procesador:</b> Core i7-1255U 1,3Gz,&nbsp  <br><b> Almacenamiento SSD (GB):</b> 256,  &nbsp <br><b> Pantalla táctil:</b> No
+            &nbsp  <b> Bluetooth:</b> Sí,  &nbsp <b> Webcam:</b> Sí, &nbsp <b>  Micrófono:</b> Sí,  &nbsp  <b> Color principal:</b>Negro,  &nbsp <b>  &nbsp  Peso:</b>1700 g</p> 
+            <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+        <div class="product-box">
+          <img src="../Tienda/9.png" alt="Producto 4" class="product-img">
+          <h2>Asus ROG Zephyrus </h2>
+          <p><b>Color:</b> Negro, &nbsp <b>Tamaño pantalla (pulgadas):</b>14,  &nbsp <b> Almacenamiento:</b> 1T GB, &nbsp  <b> Memoria RAM:</b> 16 GB,
+            &nbsp <b> Tarjeta gráfica:</b>AMD Radeon RX 6700S, &nbsp  <br><b> Sistema operativo:</b>Windows 11, &nbsp <b><br> Resolución:</b> 
+            2560 x1440,<b>  &nbsp Tipo de pantalla:</b> LED &nbsp  <b> Wi-Fi:</b> Sí,<b> &nbsp Ethernet:</b> Sí, &nbsp
+             <b><br> Procesador:</b> Core i7-1255U 1,3Gz,&nbsp  <br><b> Almacenamiento SSD (GB):</b> 256,  &nbsp <br><b> Pantalla táctil:</b> No
+            &nbsp  <b> Bluetooth:</b> Sí,  &nbsp <b> Webcam:</b> Sí, &nbsp <b>  Micrófono:</b> Sí,  &nbsp  <b> Color principal:</b>Negro,  &nbsp
+             <b>  &nbsp  Peso:</b>1650 g</p> 
+            <button id="add-to-cart">Añadir al carrito</button>
+            <div id="message" style="display:none;">Producto añadido al carrito</div>
+        </div>
+        
+      </div>
+      <section class="footer">
+		
+        <div class="redes">
+          <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+          <a href="https://twitter.com/?lang=es" class="fab fa-twitter"></a>
+          <a href="https://es-es.facebook.com/" class="fab fa-facebook-f"></a>
+          <a href="https://es.linkedin.com/" class="fab fa-linkedin"></a>
+        </div>
+    
+        <div class="links">
+          <a	href="../index.html">Inicio</a>
+          <a	href="contacto.html">Contacto</a>
+          <a	href="juego.html">Entretenimiento</a>
+        </div>
+    
+        <div class="credit">Creado por la empresa <span>Soft Tech</span> | Copyright
+        </div>
+</body>
+</html>

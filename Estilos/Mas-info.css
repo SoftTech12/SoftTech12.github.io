@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/Fondo1.jpg);
+      background-size:100%;
+  }
+div{
+    width: 50%;
+    height: auto;
+    margin-top: 3%;
+    margin:auto ;
+    border: 2px solid grey;
+    font-size:1.2em ;
+    padding: 2%;
+    background-color: rgb(198, 198, 198);
+}
+p{
+    color: white;
+}
+a{
+    background: linear-gradient(to bottom, #ff0000, #0072ff);
+    border-radius: 50px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 0,6em;
+    font-weight: bold;
+    padding: 12px 32px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    transform: translate(0, 0);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    margin-left:70% ;
+  }
+  a:hover {
+    background: linear-gradient(to bottom, #28cb4b, #c7a63a);
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(-5px, -5px);
+    transition: all 0.2s ease;
+  }
